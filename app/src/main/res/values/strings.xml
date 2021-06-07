@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Amazonia Pedidos</string>
+    <string name="b_Entrar">¡Vamos!</string>
+    <string name="ConfirmaEntrada">Animo</string>
+    <string name="txtName">Pon tu identificador</string>
+
+
+    <color name="primary">#b1bf57</color>
+    <color name="primaryLigth">#e5f286</color>
+    <color name="primaryDark">#7f8f28</color>
+    <color name="secundary">#b78d7f</color>
+    <color name="secundaryLigth">#eabdae</color>
+    <color name="secundaryDark">#866053</color>
+    <string name="title_activity_lista_productos">ListaProductos</string>
+
+</resources>
+

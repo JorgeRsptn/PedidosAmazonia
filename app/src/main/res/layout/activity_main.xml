@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b1bf57"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="185dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="100dp"
+        android:onClick="entrar"
+        android:text="@string/b_Entrar"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/secundaryDark"
+        android:textColorLink="@color/primaryDark"
+        app:backgroundTint="@color/secundary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txtEntrar"
+        android:layout_width="272dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/txtName"
+        android:textAlignment="center"
+        android:textColorHighlight="@color/secundary"
+        android:textColorLink="@color/primaryLigth"
+        android:textDirection="firstStrongLtr"
+        app:layout_constraintBottom_toTopOf="@+id/btnEntrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageViewEntrar"
+        android:layout_width="164dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginBottom="50dp"
+        android:contentDescription="Icono"
+        android:src="@drawable/aguacate"
+        app:layout_constraintBottom_toTopOf="@+id/txtEntrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.307"
+        app:srcCompat="@drawable/aguacate" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
